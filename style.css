@@ -15,25 +15,34 @@ body {
 
 header {
   /* your code */
+  display: flex;
+  justify-content: space-between;
 }
 
 main {
   /* your code */
+  display: flex;
+
 }
-main nav {
+ nav {
   border: .1rem solid purple;
   padding: 1rem;
   /* your code */
+  display: flex;
+  flex-direction: column;
 }
 main a {
   width: 5rem;
   border: .1rem solid peru;
   text-align: center;
   margin: .5rem 0rem;
+
 }
 
 .dog-list-container {
   /* your code */
+  display: flex;
+  flex-direction: row;
 }
 
 .fluid-text {
